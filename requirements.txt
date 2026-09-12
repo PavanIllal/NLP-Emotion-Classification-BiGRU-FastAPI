@@ -3,4 +3,4 @@ uvicorn[standard]==0.30.6
 pydantic==2.9.2
 numpy==1.26.4
 tensorflow-cpu==2.21.0
-keras==3.3.3
+keras==3.12.0
