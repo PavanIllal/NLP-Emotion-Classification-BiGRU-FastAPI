@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Emotion Reader — what's underneath the words</title>
+<meta name="description" content="Paste a sentence and see the feeling underneath it, read by a BiGRU model.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500;1,9..144,600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+  <div class="field" aria-hidden="true">
+    <div class="blob blob--a"></div>
+    <div class="blob blob--b"></div>
+    <div class="grain"></div>
+  </div>
+
+  <div class="wrap">
+
+    <header class="top">
+      <span class="mark">Emotion Reader</span>
+      <span class="status" id="status" role="status" aria-live="polite"></span>
+    </header>
+
+    <main class="stage">
+
+      <section class="intro">
+        <h1>Tell me what's<br>on your mind.</h1>
+        <p>Paste a sentence or two, and a small language model will read the feeling sitting underneath it — sadness, joy, love, anger, fear, or surprise.</p>
+      </section>
+
+      <section class="card" id="card">
+        <label class="sr-only" for="input">Text to read</label>
+        <textarea
+          id="input"
+          maxlength="2000"
+          rows="4"
+          placeholder="e.g. I can't believe we finally made it, after everything we went through."
+        ></textarea>
+
+        <div class="card-foot">
+          <span class="count"><span id="count">0</span> / 2000</span>
+          <button id="submit" type="button">
+            <span class="btn-label">Read the feeling</span>
+            <span class="btn-spinner" aria-hidden="true"></span>
+          </button>
+        </div>
+
+        <p class="error" id="error" role="alert"></p>
+      </section>
+
+      <section class="result" id="result">
+        <div class="result-head">
+          <span class="result-emoji" id="resultEmoji">🤍</span>
+          <h2 id="resultWord">—</h2>
+        </div>
+        <p class="result-sub" id="resultSub"></p>
+
+        <ul class="bars" id="bars"></ul>
+      </section>
+
+    </main>
+
+    <footer class="bottom">
+      <span>Built on a BiGRU model, trained to tell six feelings apart.</span>
+    </footer>
+
+  </div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
