@@ -495,7 +495,23 @@ For example, semantically similar sentences can receive different probability di
 Therefore, the model should not be considered a perfect emotion detector or a system for making high-stakes psychological decisions.
 
 ---
+## 🖥️ Application Screenshots
 
+<div align="center">
+
+<img src="screenshot/home.png" width="800">
+
+<br><br>
+
+<img src="screenshot/prediction.png" width="800">
+
+<br><br>
+
+<img src="screenshot/swagger.png" width="800">
+
+</div>
+
+---
 ## 📚 Dataset Reference
 
 This project uses the **DAIR.AI Emotion Dataset**.
