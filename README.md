@@ -336,7 +336,7 @@ NLP-Emotion-Classification-BiGRU-FastAPI/
 ## 🛠️ Technologies Used
 
 | Technology   | Purpose                         |
-| ------------ | ------------------------------- |
+| ------------ | -------------------------------- |
 | Python       | Programming language            |
 | TensorFlow   | Deep learning framework         |
 | Keras        | Neural network development      |
@@ -495,6 +495,7 @@ For example, semantically similar sentences can receive different probability di
 Therefore, the model should not be considered a perfect emotion detector or a system for making high-stakes psychological decisions.
 
 ---
+
 ## 📸 Application Screenshots
 
 <div align="center">
@@ -519,11 +520,12 @@ Therefore, the model should not be considered a perfect emotion detector or a sy
 
 <br><br>
 
-<!-- Add your 6th screenshot here -->
 <img src="screenshot/screenshot-6.png" width="850">
 
 </div>
+
 ---
+
 ## 📚 Dataset Reference
 
 This project uses the **DAIR.AI Emotion Dataset**.
