@@ -495,22 +495,34 @@ For example, semantically similar sentences can receive different probability di
 Therefore, the model should not be considered a perfect emotion detector or a system for making high-stakes psychological decisions.
 
 ---
-## 🖥️ Application Screenshots
+## 📸 Application Screenshots
 
 <div align="center">
 
-<img src="screenshot/home.png" width="800">
+<img src="screenshot/screenshot-1.png" width="850">
 
 <br><br>
 
-<img src="screenshot/prediction.png" width="800">
+<img src="screenshot/screenshot-2.png" width="850">
 
 <br><br>
 
-<img src="screenshot/swagger.png" width="800">
+<img src="screenshot/screenshot-3.png" width="850">
+
+<br><br>
+
+<img src="screenshot/screenshot-4.png" width="850">
+
+<br><br>
+
+<img src="screenshot/screenshot-5.png" width="850">
+
+<br><br>
+
+<!-- Add your 6th screenshot here -->
+<img src="screenshot/screenshot-6.png" width="850">
 
 </div>
-
 ---
 ## 📚 Dataset Reference
 
